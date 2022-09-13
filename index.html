@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-media.css">
+</head>
+
+<body>
+  <!-- Pixel-perfect -->
+  <!-- <img class="pixel-perfect-image" src="./pixel-perfect/mobile-design.png" alt=""> -->
+  <!-- <img class=" pixel-perfect-image" src="./pixel-perfect/desktop-design.png" alt=""> -->
+
+  <main>
+    <div class="container">
+      <div class="title__img">
+        <picture>
+          <source srcset="./images/image-header-mobile.jpg" type="image/jpg" media="(max-width: 375px)">
+          <img src="./images/image-header-desktop.jpg" alt="title">
+        </picture>
+      </div>
+      <div class="wrapper">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <div class="info">
+          <p>Discover the benefits of data analytics and make</p>
+          <p>better decisions regarding revenue, customer</p>
+          <p>experience, and overall efficiency.</p>
+        </div>
+        <div class="stats">
+          <div class="stats__item">
+            <div class="stat__number">10k+</div>
+            <div class="stats__category">companies</div>
+          </div>
+          <div class="stats__item">
+            <div class="stat__number">314</div>
+            <div class="stats__category">templates</div>
+          </div>
+          <div class="stats__item">
+            <div class="stat__number">12M+</div>
+            <div class="stats__category">queries</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://github.com/vzvanov" target="_blank">vzvanov</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
