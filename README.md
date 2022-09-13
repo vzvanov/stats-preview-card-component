@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Stats](/images/screenshot.jpg "Stats")
+![Stats](/images/screenshot.png "Stats")
 
 ### Links
 
