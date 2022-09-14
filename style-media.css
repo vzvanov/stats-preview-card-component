@@ -23,7 +23,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.5;
+    mix-blend-mode: multiply;
+    opacity: 84%;
   }
 
   h1 {
